@@ -9,7 +9,7 @@ COPY . .
 
 
 RUN npm run build
-
+RUN npm i -g json-server
 RUN npm run server
 
 # Stgae 1 - Serve Frontend Assets
