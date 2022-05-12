@@ -1,5 +1,5 @@
 # Stage 0 - Build frontend Assets
-FROM node:16 as builder
+FROM node:12 as builder
 
 WORKDIR /app
 
