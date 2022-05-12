@@ -7,7 +7,10 @@ COPY package.json /app
 RUN npm install
 COPY . .
 
+
 RUN npm run build
+
+RUN npm run server
 
 # Stgae 1 - Serve Frontend Assets
 

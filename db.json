@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "address": "London",
+      "email": "london@example.com",
+      "contact": "12345678"
+    },
+    {
+      "id": 2,
+      "name": "json",
+      "address": "France",
+      "email": "france@example.com",
+      "contact": "12345678"
+    },
+    {
+      "name": "ben",
+      "email": "aa",
+      "contact": "zz",
+      "address": "hamza",
+      "id": 3
+    }
+  ]
+}
